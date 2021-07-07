@@ -17,7 +17,7 @@
 	<body>
 		<header>
 			<h1 class="title">
-				<a href="#title">
+				<a href="index.html">
 					<span class="hostname">daluz@developer</span>:<span class="directory"
 						>~/</span
 					>$
@@ -28,6 +28,7 @@
 				<a href="#skills">Skills</a>
 				<a href="#aboutme">About me</a>
 				<a href="#personal-projects">Personal projects</a>
+				<a href="#contactme">Contact me</a>
 			</nav>
 		</header>
 		<container>
@@ -220,23 +221,26 @@
 					</li>
 				</ul>
 			</section>
-			<section class="aboutme-section">
+			<section id="aboutme" class="aboutme-section">
 				<h3>About me</h3>
-				<p>
-					I'm a brazilian developer living in Contagem - MG and working at Jabil
-				</p>
-				<p>I love ride a motorcycle and listen to music</p>
-				<p>I'm currently working with .NET Core and React</p>
-				<p>
-					I am in love for React, but I have some previous experience with .NET
-					ecosystem (ASP.NET, Entity Framework, Razor, etc)
-				</p>
-				<p>
-					English is not one of my strengths but I'm learning, I want to evolve
-					and I want to try.
-				</p>
+				<div class="aboutme-description">
+					<p>
+						I'm a brazilian developer living in Contagem - MG and working at
+						Jabil
+					</p>
+					<p>I love ride a motorcycle and listen to music</p>
+					<p>I'm currently working with .NET Core and React</p>
+					<p>
+						I am in love for React, but I have some previous experience with
+						.NET ecosystem (ASP.NET, Entity Framework, Razor, etc)
+					</p>
+					<p>
+						English is not one of my strengths but I'm learning, I want to
+						evolve and I want to try.
+					</p>
+				</div>
 			</section>
-			<section class="personal-projects-section">
+			<section id="personal-projects" class="personal-projects-section">
 				<h3>Some personal projects</h3>
 				<ul>
 					<li>
@@ -247,47 +251,64 @@
 								src="https://user-images.githubusercontent.com/53236753/124676682-5efc0480-de95-11eb-8415-20c9216c66b7.png"
 								alt="radiodev image"
 							/>
-							<p>
-								This is a personal project in order to listen to music while I
-								work
-							</p>
-							<p>
-								This webapp has firebase integration and was built with React,
-								styled-components, React-Router-Dom and Axios.
-							</p>
-							<p>
-								It is not finished, because I want to build a Node backend to
-								send me the musics by streaming
-							</p>
+							<div class="project-description">
+								<p>
+									This is a personal project in order to listen to music while I
+									work
+								</p>
+								<p>
+									This webapp has firebase integration and was built with React,
+									styled-components, React-Router-Dom and Axios.
+								</p>
+								<p>
+									It is not finished, because I want to build a Node backend to
+									send me the musics by streaming
+								</p>
+							</div>
 						</a>
 					</li>
 					<li>
-						<img class="screenshots" src="" alt="doit image" />
-						<h6>
-							<a href="https://doit-eight.vercel.app">doit</a>
-						</h6>
-						<p>This is a personal project in order to organize myself</p>
-						<p>This site was built with React, and Sass.</p>
-						<p>
-							It is currently with a bug when the user use the drag and drop.
-						</p>
-						<p>
-							This app hasn't a backend, so the data are stored in browser
-							localstorage.
-						</p>
+						<a href="https://doit-eight.vercel.app">
+							<h6>doit</h6>
+							<img
+								class="screenshots"
+								src="https://user-images.githubusercontent.com/53236753/124748881-027f0080-defa-11eb-985c-86316a6ffee9.png"
+								alt="doit image"
+							/>
+							<div class="project-description">
+								<p>This is a personal project in order to organize myself</p>
+								<p>This site was built with React, and Sass.</p>
+								<p>
+									It is currently with a bug when the user use the drag and
+									drop.
+								</p>
+								<p>
+									This app hasn't a backend, so the data are stored in browser
+									localstorage.
+								</p>
+							</div>
+						</a>
 					</li>
 					<li>
-						<img class="screenshots" src="" alt="" />
-						<h6>
-							<a href="https://reactjs-todo-list.vercel.app">react todolist</a>
-						</h6>
-						<p>Same idea of doit, but this was my first project with React.</p>
-						<p>Was used React and Css only.</p>
-						<p>This app store the data in browser localstorage too.</p>
+						<a href="https://reactjs-todo-list.vercel.app">
+							<h6>react todolist</h6>
+							<img
+								class="screenshots"
+								src="https://user-images.githubusercontent.com/53236753/124749557-c6986b00-defa-11eb-8bac-7ba0612fb746.png"
+								alt=""
+							/>
+							<div class="project-description">
+								<p>
+									Same idea of doit, but this was my first project with React.
+								</p>
+								<p>Was used React and Css only.</p>
+								<p>This app store the data in browser localstorage too.</p>
+							</div>
+						</a>
 					</li>
 				</ul>
 			</section>
-			<footer class="contactme-section">
+			<footer id="contactme" class="contactme-section">
 				<h3>Contact me</h3>
 				<nav>
 					<a href="https://github.com/daluzrd" target="_blank">
